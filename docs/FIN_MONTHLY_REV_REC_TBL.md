@@ -1,7 +1,7 @@
 # FIN_MONTHLY_REV_REC_TBL
 
 ## Formula
-[`lambdas/FIN_MONTHLY_CONTRACT_REV_REC_TBL.lam.txt`](../lambdas/FIN_MONTHLY_CONTRACT_REV_REC_TBL.lam.txt)
+[`lambdas/FIN_MONTHLY_REV_REC_TBL.lam.txt`](../lambdas/FIN_MONTHLY_REV_REC_TBL.lam.txt)
 
 
 ## Purpose
@@ -63,7 +63,6 @@ All calculations are:
 
 ## Assumptions & limitations
 - No business-day weighting
-- No proration by partial months beyond daily allocation
 - Dates must be valid Excel date values
 - Returns a table, not a scalar
 
