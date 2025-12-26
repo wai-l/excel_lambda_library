@@ -1,5 +1,8 @@
 # FIN_MONTHLY_REV_REC_TBL
 
+## Function
+[Link](lambdas/FIN_MONTHLY_REV_REC.txt): `FIN_MONTHLY_REV_REC_TBL`
+
 ## Purpose
 
 Accrues a fixed revenue amount evenly by **calendar day** across a contract period and returns **monthly recognised revenue totals**.

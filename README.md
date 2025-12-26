@@ -24,14 +24,14 @@ excel-lambda-library/
 ## Naming conventions
 
 ### Prefixes
-- FIN_ – finance & accounting logic
-- DAT_ – date / time-series / data shaping
-- UTL_ – generic utilities
+- ```FIN_``` – finance & accounting logic
+- ```DAT_``` – date / time-series / data shaping
+- ```UTL_``` – generic utilities
 
 ### Output suffixes (where helpful)
-- _SCALAR – single value
-- _VEC – single row/column
-- _TBL – 2D table
+- ```_SCALAR``` – single value
+- ```_VEC``` – single row/column
+- ```_TBL``` – 2D table
 
 ## How to use a function in Excel
 1. Copy the formula from lambdas/<NAME>.lam.txt
@@ -50,4 +50,4 @@ Example:
 ### Finance
 | Function | Returns | Description | Formula | Documentation |
 |--------|--------|-------------|---------|----------------|
-| FIN_MONTHLY_REV_REC_TBL | Table | Monthly revenue recognition from total contract value | [Link](lambdas/FIN_MONTHLY_REV_REC.txt)  | [Link](docs/FIN_MONTHLY_REV_REC_TBL.md) |
+| FIN_MONTHLY_REV_REC_TBL | Table | Monthly revenue recognition from total contract value | [Link](lambdas/FIN_MONTHLY_REV_REC_TBL.txt)  | [Link](docs/FIN_MONTHLY_REV_REC_TBL.md) |
