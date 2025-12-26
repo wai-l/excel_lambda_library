@@ -1,7 +1,8 @@
 # FIN_MONTHLY_REV_REC_TBL
 
-## Function
-[Link](lambdas/FIN_MONTHLY_REV_REC.txt): `FIN_MONTHLY_REV_REC_TBL`
+## Formula
+[`lambdas/FIN_MONTHLY_CONTRACT_REV_REC_TBL.lam.txt`](../lambdas/FIN_MONTHLY_CONTRACT_REV_REC_TBL.lam.txt)
+
 
 ## Purpose
 
