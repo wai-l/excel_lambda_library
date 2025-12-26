@@ -1,0 +1,25 @@
+=LAMBDA(
+    start_date, end_date, tcv, 
+    LET(
+        n_days, end_date - start_date + 1,
+        days_list, SEQUENCE(n_days,,start_date,1),
+        daily_value_col, MAKEARRAY(n_days,1,LAMBDA(_r,_c, tcv/n_days)),
+
+        ym, EOMONTH(days_list,-1)+1,
+        uniq_ym, SORT(UNIQUE(ym)),
+
+        monthly_sum,
+        MAP(
+            uniq_ym,
+            LAMBDA(
+                m,
+                SUM(IFERROR(FILTER(daily_value_col, ym=m), 0))
+                )
+            ),
+
+        df, HSTACK(uniq_ym, monthly_sum),
+        header, HSTACK("year_month", "sum_value"),
+
+        VSTACK(header, df)
+        )
+    )
