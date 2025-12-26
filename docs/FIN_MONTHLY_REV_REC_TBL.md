@@ -1,9 +1,5 @@
 # FIN_MONTHLY_REV_REC_TBL
 
-## Formula
-[`lambdas/FIN_MONTHLY_REV_REC_TBL.lam.txt`](../lambdas/FIN_MONTHLY_REV_REC_TBL.lam.txt)
-
-
 ## Purpose
 
 Accrues a fixed revenue amount evenly by **calendar day** across a contract period and returns **monthly recognised revenue totals**.
